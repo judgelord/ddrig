@@ -1,0 +1,17 @@
+section
+summary
+project-description-and-research-plan
+the-intellectual-merit-of-studying-a
+the-intellectual-merit-of-studying-b
+really-really-meritorious
+the-intellectual-merit-of-studying-c
+the-broader-impacts-of-research-and-data-on-x
+the-broader-impacts-of-y
+the-broader-impacts-of-z
+timeline
+current-and-pending-sources-of-support
+professional-development-plan
+biographical-sketch
+budget-justification
+data-management-plan
+ethics

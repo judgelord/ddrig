@@ -1,0 +1,51 @@
+--- 
+title: APSA Dissertation Research Improvement Grant Template
+author:
+- name: Devin Judge-Lord
+  affiliation: University of Wisconsin-Madison
+site: bookdown::bookdown_site
+bibliography: "assets/dissertation.bib"
+biblio-style: assets/apsr
+always_allow_html: true
+---
+
+```{r setup, echo = FALSE, include = FALSE}
+library(tidyverse)
+library(ggplot2); theme_set(theme_bw())
+library(magrittr)
+library(broom)
+library(here)
+library(kableExtra)
+
+knitr::opts_chunk$set(echo = FALSE, 
+                      warning = FALSE,
+                      message = FALSE,
+                      fig.path= 'figs/', ## where to save figures
+                      fig.height = 2,
+                      fig.pos = "h",
+                      fig.width = 4)
+```
+
+<!-- DELETE BELOW TEXT ---> 
+---
+> Fork this repository at https://github.com/judgelord/ddrig.
+
+> If you choose to [publish](https://github.blog/2016-08-17-simpler-github-pages-publishing/) your new ddrig repository, your friends and advisors can read your draft proposal as a web page or download it as a .docx or .pdf at the link above.
+
+---
+
+See the wonderful bookdown documentation at https://bookdown.org/
+
+---
+
+The `/assets` folder contains some key tools:
+
+- `apsr.bst` formats your citations
+- LaTeX is formatted with `article-template.tex` adapted from https://github.com/svmiller/svm-r-markdown-templates
+- `clean-bib.R` removes any problematic special characters from a .bib file (e.g., one exported from Mendeley or Zotero)
+
+`/docs` is where the .html, .pdf, and .docx output will appear
+
+`/figs` is where to put figures and where any figures generated will be saved
+
+\newpage

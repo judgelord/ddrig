@@ -1,0 +1,18 @@
+# Ethics
+
+> ~~No longer than 1 page, single-spaced~~ 500 words
+
+> APSA is committed to promoting and supporting the highest levels of research and professional ethics. applicants will be required to provide a statement affirming their commitment to research ethics, and describing the application of the principles of research ethics in their projects. This should include addressing questions around ethical implementation of human subjects research as well as whether the applicant knows of any potential issues regarding conflicts of interest or scientific integrity for their projects. This may overlap with issues addressed in the data management plan, but most issues around the ethical handling of data should be covered in the data management plan. In developing this statement it may be useful to refer to the APSA Ethics Guide and Principles and Guidance for Human Subjects Research.
+
+> Applicants with projects involving human subjects must provide documentation indicating that they have applied for or already gained IRB approval or exemption for their research plan (for example, the letter of approval or exemption from the IRB or a letter or email confirming submission of an application to the IRB). Applicants who submit documentation of having applied for IRB approval will be asked to submit verification of IRB approval upon receipt of such approval.
+
+
+In line with the *APSA Guide to Professional in Political Science* (especially principles 3, 5, and 10), I will gratefully acknowledge support from the NSF APSA DDRIG and all Research Assistants who wish to be acknowledged in all resulting published work, including replication data and software.
+
+With respect to principle 6. the data and code to replicate all analysis will be available on GitHub.com.
+
+\newpage
+
+`r if (knitr::is_html_output()) '# References {-}'` 
+<!-- See https://bookdown.org/yihui/bookdown/citations.html-->
+

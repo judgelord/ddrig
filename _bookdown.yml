@@ -1,0 +1,14 @@
+book_filename: "app"
+output_dir: "docs"
+chapter_name: ""
+delete_merged_file: true
+rmd_files:
+ - index.Rmd
+ - summary.Rmd
+ - project.Rmd
+ - current.Rmd
+ - professional-dev.Rmd
+ - bio.Rmd
+ - budget.Rmd
+ - data.Rmd
+ - ethics.Rmd

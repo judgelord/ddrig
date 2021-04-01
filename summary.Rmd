@@ -1,0 +1,7 @@
+# Summary
+
+>No longer than 1 page, single-spaced
+
+>The proposal summary should be a succinct overview of the project, including the central research *question*, a brief note on how the project fits with *existing research* on the issue, a short overview of the research *plan*, and an indication of *how the grant is expected to improve the overall dissertation*.
+
+\newpage

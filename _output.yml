@@ -1,0 +1,27 @@
+bookdown::gitbook:
+  split_by: rmd
+  number_sections: false
+  config: 
+    split_bib: TRUE
+    sharing: true
+    download: ["pdf", "docx"] # so LOR writers can choose how to read your draft
+    github: "https://github.com/judgelord/ddrig"
+    twitter: "https://twitter.com/JudgeLord"
+
+bookdown::pdf_book:
+  split_bib: true
+  latex_engine: pdflatex
+  citation_package: natbib
+  link-citations: yes
+  template: assets/article-template.tex
+  toc: false
+  number_sections: false
+  header-includes:
+  - \usepackage{floatrow}
+  - \usepackage{float}
+  - \floatsetup[figure]{capposition=top}
+  - \floatsetup[table]{capposition=top}
+
+# To share with your advisors
+bookdown::word_document2:
+  toc: false
