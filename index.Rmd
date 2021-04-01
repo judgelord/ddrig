@@ -28,13 +28,13 @@ knitr::opts_chunk$set(echo = FALSE,
 
 <!-- DELETE BELOW TEXT ---> 
 ---
-> Fork this repository at https://github.com/judgelord/ddrig.
+> Fork this repository at https://github.com/judgelord/ddrig. (Or download just the [.docx](https://judgelord.github.io/ddrig/app.docx) or [.tex](https://judgelord.github.io/ddrig/app.tex) template if you don't use bookdown.)
 
-> If you choose to [publish](https://github.blog/2016-08-17-simpler-github-pages-publishing/) your new ddrig repository, your friends and advisors can read your draft proposal as a web page or download it as a .docx or .pdf at the link above.
+> If you choose to [publish](https://github.blog/2016-08-17-simpler-github-pages-publishing/) your new ddrig repository, your friends and advisors will be able to read your draft proposal as a web page or download it as a .docx or .pdf at the link above.
 
 ---
 
-See the wonderful bookdown documentation at https://bookdown.org/
+See the wonderful bookdown documentation at https://bookdown.org/.
 
 ---
 

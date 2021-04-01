@@ -15,6 +15,7 @@ bookdown::pdf_book:
   link-citations: yes
   template: assets/article-template.tex
   toc: false
+  keep_tex: true
   number_sections: false
   header-includes:
   - \usepackage{floatrow}
