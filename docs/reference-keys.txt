@@ -1,10 +1,11 @@
+fig:hello-world
 section
 summary
 project-description-and-research-plan
 the-intellectual-merit-of-studying-a
 the-intellectual-merit-of-studying-b
-really-really-meritorious
 the-intellectual-merit-of-studying-c
+really-really-meritorious
 the-broader-impacts-of-research-and-data-on-x
 the-broader-impacts-of-y
 the-broader-impacts-of-z
