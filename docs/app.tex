@@ -47,6 +47,14 @@
 
   \usepackage{longtable, booktabs}
 
+  \usepackage{graphicx,grffile}
+  % Scale images; don't overflow page margins by default.
+  % Still possible explicate \includegraphics[width, height, ...]{}
+  \makeatletter
+    \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+    \def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+  \makeatother 
+  \setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
 
 
 
@@ -262,22 +270,28 @@ All references cited in the project description and research plan should be incl
 \hypertarget{the-intellectual-merit-of-studying-a}{%
 \subsection{The intellectual merit of studying A}\label{the-intellectual-merit-of-studying-a}}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit \citep{Schattschneider1975}.
+``The heavenly chorus sings with an upper-class accent'' \citep{Schattschneider1975}.
 
 \hypertarget{the-intellectual-merit-of-studying-b}{%
 \subsection{The intellectual merit of studying B}\label{the-intellectual-merit-of-studying-b}}
+
+See Figure \ref{fig:hello-world}.
+
+\begin{figure}
+\centering
+\includegraphics{figs/hello-world-1.pdf}
+\caption{\label{fig:hello-world}Hello World!}
+\end{figure}
+
+\hypertarget{the-intellectual-merit-of-studying-c}{%
+\subsection{The intellectual merit of studying C}\label{the-intellectual-merit-of-studying-c}}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 \hypertarget{really-really-meritorious}{%
 \subsubsection{Really, really meritorious!}\label{really-really-meritorious}}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-\hypertarget{the-intellectual-merit-of-studying-c}{%
-\subsection{The intellectual merit of studying C}\label{the-intellectual-merit-of-studying-c}}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit!
 
 \hypertarget{the-broader-impacts-of-research-and-data-on-x}{%
 \subsection{The broader impacts of research and data on X}\label{the-broader-impacts-of-research-and-data-on-x}}

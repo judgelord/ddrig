@@ -46,6 +46,6 @@ The `/assets` folder contains some key tools:
 
 `/docs` is where the .html, .pdf, and .docx output will appear
 
-`/figs` is where to put figures and where any figures generated will be saved
+`/figs` is where to put figures you want to include
 
 \newpage

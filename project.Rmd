@@ -13,19 +13,27 @@
 
 ## The intellectual merit of studying A
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit [@Schattschneider1975].
+"The heavenly chorus sings with an upper-class accent" [@Schattschneider1975].
 
 ## The intellectual merit of studying B
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+See Figure \@ref(fig:hello-world).
 
-### Really, really meritorious!
+```{r hello-world, fig.cap="Hello World!", cache=TRUE}
+map_data("world") %>%
+  ggplot( aes(x = long, y = lat) ) +  
+  geom_polygon( aes(group = group), fill = NA, color = "grey") +
+  geom_text( aes(x=-89.4012, y=43.0731), color = "Red", label = "Hi")
+```
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 
 ## The intellectual merit of studying C 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+
+### Really, really meritorious!
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit!
 
 ## The broader impacts of research and data on X
 
